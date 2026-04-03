@@ -3,7 +3,7 @@
   "outputDirectory": "client/dist",
   "framework": "vite",
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "http://localhost:3000/api/$1" },
+    { "source": "/api/(.*)", "destination": "https://campaign-tracker-server.onrender.com/api/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
