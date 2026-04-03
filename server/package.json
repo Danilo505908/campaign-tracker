@@ -4,7 +4,7 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "npm install --build-from-source sqlite3 && tsc",
+    "build": "tsc",
     "start": "node dist/index.js"
   },
   "keywords": [],
@@ -14,7 +14,7 @@
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
-    "sqlite3": "^6.0.1"
+    "sqlite3": "5.1.7"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
